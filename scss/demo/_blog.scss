@@ -54,5 +54,10 @@
 
 	.read-more-link {
 		border: 1px solid $theme-color;
+		background-color: $white;
+
+		&:hover {
+			background-color: $theme-color;
+		}
 	}
 }
