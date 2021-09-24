@@ -45,6 +45,12 @@
 	}
 }
 
+.arrow-control {
+	@include media-breakpoint-down(lg) {
+		display: none;
+	}
+}
+
 .about-detail {
 	h2 {
 		font-family: $body-font;
@@ -65,7 +71,7 @@
 	bottom: 0rem;
 
 	@include media-breakpoint-down(lg) {
-		bottom: 28rem;
+		bottom: 32rem;
 	}
 
 	@include media-breakpoint-down(sm) {
@@ -132,7 +138,11 @@
  }
 
  .slick-prev {
-	 left:-10rem;
+	 left:-5rem;
+
+	@include media-breakpoint-down(xxl) {
+		left: -2rem;
+	}
 
 	 @include media-breakpoint-down(lg) {
 		display: none !important;
@@ -140,7 +150,11 @@
  }
 
  .slick-next {
-    right: -7rem;
+    right: -3rem;
+
+	@include media-breakpoint-down(xxl) {
+		right: -1rem;
+	}
 
 	@include media-breakpoint-down(lg) {
 		display: none !important;
