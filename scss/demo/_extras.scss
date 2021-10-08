@@ -14,7 +14,6 @@
 
 .carousel-indicator {
 	span {
-		font-family: $body-font;
 		font-size: 0.875rem;
 		font-weight: 700;
 
@@ -63,9 +62,7 @@
 	}
 
 	p {
-		font-family: $body-font;
 		font-size: 0.825rem;
-		font-weight: 400;
 	}
 }
 
@@ -87,17 +84,9 @@
 #time {
 	border-bottom: 1px solid $theme-color;
 
-	p {
-		font-family: $body-font;
-		font-size: 0.875rem;
-		font-weight: 300;
-		color: $white;
-	}
-
 	span {
 		display: inline-block;
-		font-family: $body-font;
-		font-size: 3.25rem;
+		font-size: 3.75rem;
 		font-weight: 700;
 		color: $white;
 	}
@@ -119,15 +108,12 @@
 //read more link //
 .read-more-link {
 	display: inline-block;
-	font-family: $body-font;
 	font-weight: 700;
 	font-size: .875rem;
 	padding: 1rem 3rem;
 	background-color: $theme-color;
 	color: $dark;
-	text-decoration: none;
 	border-radius: 2rem;
-	letter-spacing: 0.05rem;
 }
 
 // slider items//
@@ -186,7 +172,6 @@
 		}
 
 		span {
-			font-family: $body-font;
 			font-size: 1.5rem;
 			padding: 0.5rem;
 			background-color: $white;
@@ -197,7 +182,6 @@
 
 .sign-up-link {
 	background-color: $theme-color;
-    font-family: $body-font;
     font-weight: 700;
 	font-size: .875rem;
     color: $dark;
@@ -241,14 +225,8 @@
 		border-bottom: 1px solid $white;
 	}
 
-	input[type=text], input[type=email] {
-		height: 3rem;
-	}
-
 	label {
 		color: $white;
-		font-size: 0.8rem;
-		font-family: $body-font;
 		display: block;
 		margin-bottom: -1rem;
 	}
@@ -256,7 +234,6 @@
 	button {
 		font-size: 0.8rem;
 		padding: 1.2rem 2.5rem;
-		font-family: $body-font;
 		font-weight: 700;
 		letter-spacing: 0.05rem;
 

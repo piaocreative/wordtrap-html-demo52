@@ -23,33 +23,15 @@
 	left: 0;
 
 	.title {
-		font-family: $heading-font;
 		font-weight: 700;
 		color: $secondary;
 		line-height: 1.2;
 		letter-spacing: 0.05rem;
 	}
 
-	.sub-title {
-		font-weight: 500;
-		font-size: 0.875rem;
-		color: #7f7f7f;
-		font-family: $body-font;
-
-		i {
-			font-size: 0.4rem;
-		}
-	}
-
 	p {
-		font-size: 0.875rem;
 		line-height: 1.5rem;
 		color: $secondary;
-	}
-
-	@include media-breakpoint-down(lg) {
-		padding-left: 1rem;
-		padding-right: 1rem;
 	}
 }
 

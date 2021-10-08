@@ -4,26 +4,9 @@
 
 -----------------------------------------------------------------*/
 #contact {
-	background-color: $white;
-	padding: 2.5rem;
-
-	input,select {
-		border-bottom: 1px solid #cdcdcd;
-	}
-	
-	input[type=text], input[type=email] {
-		height: 3rem;
-	}
-
-	select {
-		padding-bottom: 0.8rem ;
-		font-size: 0.825rem;
-	}
-
 	label {
 		color: #a09f9f;
-		font-size: 0.825rem;
-		font-family: $body-font;
+		font-size: 1rem;
 		display: block;
 		margin-bottom: -1rem;
 		padding-left: 0.8rem;
@@ -39,9 +22,5 @@
 			font-size: 0.9rem;
 			margin-left: 0.5rem;
 		}
-	}
-
-	p {
-		font-weight: 500;
 	}
 }

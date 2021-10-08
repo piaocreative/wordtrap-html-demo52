@@ -51,10 +51,12 @@ $( document ).ready( function() {
 
   $('.teams').slick({
     dots: false,
-    arrows: false,
+    arrows: true,
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
+    prevArrow: $(".team-prev"),
+    nextArrow: $(".team-next"),
     responsive: [
       {
         breakpoint: 1024,
@@ -80,16 +82,6 @@ $( document ).ready( function() {
       }
     ]
 });
-
-$(".team-prev").click(function(e) {
-  e.preventDefault();
-  $('.teams').slick('slickPrev');
-})
-
-$(".team-next").click(function(e) {
-  e.preventDefault();
-  $('.teams').slick('slickNext');
-})
 
   $('.testimonials-slick').slick({
     dots: false,
