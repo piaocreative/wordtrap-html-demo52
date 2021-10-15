@@ -105,17 +105,6 @@
 	}
 }
 
-//read more link //
-.read-more-link {
-	display: inline-block;
-	font-weight: 700;
-	font-size: .875rem;
-	padding: 1rem 3rem;
-	background-color: $theme-color;
-	color: $dark;
-	border-radius: 2rem;
-}
-
 // slider items//
 .slick-prev::before, .slick-next:before {
 	 font-size: 3rem;
@@ -217,30 +206,6 @@
 
 	@include media-breakpoint-down(lg) {
 		padding: 3rem;
-	}
-}
-
-#subscribe {
-	input{
-		border-bottom: 1px solid $white;
-	}
-
-	label {
-		color: $white;
-		display: block;
-		margin-bottom: -1rem;
-	}
-
-	button {
-		font-size: 0.8rem;
-		padding: 1.2rem 2.5rem;
-		font-weight: 700;
-		letter-spacing: 0.05rem;
-
-		i {
-			font-size: 0.9rem;
-			margin-left: 1rem;
-		}
 	}
 }
 

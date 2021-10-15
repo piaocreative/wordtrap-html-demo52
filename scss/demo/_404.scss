@@ -26,13 +26,6 @@
             font-size: 0.875rem;
             letter-spacing: 0.05rem;
         }
-
-        .go-home {
-            padding: 1.3rem 4rem;
-            font-size: 0.875rem;
-            font-weight: 600;
-            letter-spacing: 0.07rem;
-        }
     }
 
     @include media-breakpoint-down(lg) {
