@@ -16,22 +16,11 @@
 -----------------------------------------------------------------*/
 
 #page-title {
-	position: absolute;
-	height: 100%;
-	top: 0;
-	right: 0;
-	left: 0;
-
 	.title {
 		font-weight: 700;
 		color: $secondary;
 		line-height: 1.2;
 		letter-spacing: 0.05rem;
-	}
-
-	p {
-		line-height: 1.5rem;
-		color: $secondary;
 	}
 }
 

@@ -5,6 +5,11 @@
 -----------------------------------------------------------------*/
 .error-404 {
     position: relative;
+    background-image: url(../images/404/404.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10.625rem;
 
     .error-logo {
         font-family: $heading-font;
@@ -14,25 +19,8 @@
         line-height: 1;
         letter-spacing: 0.5rem;
     }
-
-    .error-content {
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        height: 100%;
-
-        p {
-            font-size: 0.875rem;
-            letter-spacing: 0.05rem;
-        }
-    }
-
+    
     @include media-breakpoint-down(lg) {
-        .error-banner {
-            height: 35rem;
-        }
-
         .error-logo {
             font-size: 13.5rem;
         }

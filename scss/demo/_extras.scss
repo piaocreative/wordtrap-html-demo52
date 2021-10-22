@@ -66,20 +66,6 @@
 	}
 }
 
-.sale-banner {
-	position: absolute;
-	width: 100%;
-	bottom: 0rem;
-
-	@include media-breakpoint-down(lg) {
-		bottom: 32rem;
-	}
-
-	@include media-breakpoint-down(sm) {
-		display: none;
-	}
-}
-
 // time //
 #time {
 	border-bottom: 1px solid $theme-color;
